@@ -25,13 +25,14 @@ SECRET_KEY = 'jqx4m6tf3v2m*d)d^96v3o4$hey+u1kgs6=^xqu65f=2p75)w('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['thomv.pythonanywhere.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
+    'polls2.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
